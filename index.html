@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamEvents</title>
+
+    <link
+      rel="shortcut icon"
+      href="images/favicon (1).ico"
+      type="image/x-icon"
+    />
+
+    <!-- Bottstrap Css -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    /> -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JScript fontawesome embedded Link -->
+    <script
+      src="https://kit.fontawesome.com/666d3e82df.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Css stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <section class="header-bg" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">DreamEvents</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#title">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carousel.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown link
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="big-heading">
+              " Dream Event specializes in creating Memorable and Successful
+              events for our Clients "
+            </h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <a href="">
+            <h2>Wedding</h2>
+            <img
+              src="images/wedding_circle.png"
+              class="img-fluid"
+              alt="Image 1"
+            />
+          </a>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <a href="">
+            <h2>Personal Event</h2>
+            <img
+              width="639"
+              height="639"
+              src="images/personal_events (1).png"
+              class="img-fluid"
+              alt="Image 2"
+            />
+          </a>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <a href="">
+            <h2>Birthday</h2>
+            <img
+              src="images/birthday_circle.png"
+              class="img-fluid"
+              alt="Image 3"
+            />
+          </a>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <a href="">
+            <h2>Corporate Event</h2>
+            <img
+              src="images/corporate_circle.png"
+              class="img-fluid"
+              alt="Image 3"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img
+              src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100"
+              class="d-block w-100 c-img"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h3>Client Name</h3>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+                Book a Event
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100"
+              class="d-block w-100 c-img"
+              alt="Slide 2"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h3>Client Name</h3>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <button
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Book a Event
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100"
+              class="d-block w-100 c-img"
+              alt="Slide 3"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h3>Client Name</h3>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <button
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Book a Event
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img
+              src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100"
+              class="d-block w-100 c-img"
+              alt="Slide 4"
+            />
+            <div class="carousel-caption top-0 mt-4">
+              <h3>Client Name</h3>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <button
+                class="btn btn-primary px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#booking-modal"
+              >
+                Book a Event
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <div>
+        <img class="company" src="images/techcrunch.png" alt="tc-logo" />
+        <img class="company" src="images/tnw.png" alt="tnw-logo" />
+        <img
+          class="company"
+          src="images/bizinsider.png"
+          alt="biz-insider-logo"
+        />
+        <img class="company" src="images/mashable.png" alt="mashable-logo" />
+      </div>
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="pricing">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Pricing</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>Free Plan</h3>
+              <h4><sup>$</sup>0<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li class="na">
+                  <i class="bx bx-x"></i> <span>Lorem ipsum dolor sit.</span>
+                </li>
+                <li class="na">
+                  <i class="bx bx-x"></i> <span>Lorem ipsum dolor sit.</span>
+                </li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 mt-4 mt-lg-0"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="box featured">
+              <h3>Recomended Plan</h3>
+              <h4><sup>$</sup>5<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 mt-4 mt-lg-0"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="box">
+              <h3>Premium Plan</h3>
+              <h4><sup>$</sup>8<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <a href="https://www.linkedin.com/in/swaggy007/"
+        ><i class="Social-Icon fa-brands fa-linkedin-in fa-2x"></i
+      ></a>
+      <i class="Social-Icon fa-brands fa-facebook fa-2x"></i>
+      <i class="Social-Icon fa-brands fa-twitter fa-2x"></i>
+      <i class="Social-Icon fa-brands fa-instagram fa-2x"></i>
+      <a href="mailto:mitraswat999@gmail.com"
+        ><i class="Social-Icon fa-solid fa-envelope fa-2x"></i
+      ></a>
+      <p class="copyright">© Copyright DreamEvents By SwaGy</p>
+    </footer>
+  </body>
+</html>
